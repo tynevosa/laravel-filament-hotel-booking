@@ -59,7 +59,7 @@
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
-                <li class="active"><a href="index">Home</a></li>
+                <li class="active"><a href="{{route('index')}}">Home</a></li>
                 <li><a href="rooms">Rooms</a></li>
                 <li><a href="about-us">About Us</a></li>
                 <li><a href="pages">Pages</a>
@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="index">
+                            <a href="{{route('index')}}">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
@@ -137,7 +137,7 @@
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="index">Home</a></li>
+                                    <li><a href="{{route('index')}}">Home</a></li>
                                     <li><a href="rooms">Rooms</a></li>
                                     <li><a href="about-us">About Us</a></li>
                                     <li><a href="pages">Pages</a>

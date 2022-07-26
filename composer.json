@@ -9,6 +9,7 @@
         "doctrine/dbal": "^3.3",
         "filament/filament": "^2.14",
         "filament/forms": "^2.14",
+        "filament/spatie-laravel-media-library-plugin": "^2.15",
         "filament/tables": "^2.14",
         "guzzlehttp/guzzle": "^7.2",
         "jeffgreco13/filament-breezy": "^1.3",

@@ -59,19 +59,19 @@
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./rooms.html">Rooms</a></li>
-                <li><a href="./about-us.html">About Us</a></li>
-                <li><a href="./pages.html">Pages</a>
+                <li class="active"><a href="{{route('index')}}">Home</a></li>
+                <li><a href="rooms">Rooms</a></li>
+                <li><a href="about-us">About Us</a></li>
+                <li><a href="pages">Pages</a>
                     <ul class="dropdown">
-                        <li><a href="./room-details.html">Room Details</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
+                        <li><a href="room-details">Room Details</a></li>
+                        <li><a href="blog-details">Blog Details</a></li>
                         <li><a href="#">Family Room</a></li>
                         <li><a href="#">Premium Room</a></li>
                     </ul>
                 </li>
-                <li><a href="./blog.html">News</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="blog">News</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="./index.html">
+                            <a href="{{route('index')}}">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
@@ -137,19 +137,19 @@
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li class="active"><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./pages.html">Pages</a>
+                                    <li><a href="{{route('index')}}">Home</a></li>
+                                    <li class="active"><a href="rooms">Rooms</a></li>
+                                    <li><a href="about-us">About Us</a></li>
+                                    <li><a href="pages">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="room-details">Room Details</a></li>
+                                            <li><a href="blog-details">Blog Details</a></li>
                                             <li><a href="#">Family Room</a></li>
                                             <li><a href="#">Premium Room</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">News</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="blog">News</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="nav-right search-switch">
@@ -171,7 +171,7 @@
                     <div class="breadcrumb-text">
                         <h2>Our Rooms</h2>
                         <div class="bt-option">
-                            <a href="./home.html">Home</a>
+                            <a href="{{route('index')}}">Home</a>
                             <span>Rooms</span>
                         </div>
                     </div>
